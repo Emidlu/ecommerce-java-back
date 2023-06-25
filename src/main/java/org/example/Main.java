@@ -56,7 +56,7 @@ public class Main {
 
                     // cargas de los distintos productos
                     Producto zapatillas =  repoProductos.save(new Producto(1, "Zapatillas", "Muy buenas zapatillas", "https://assets.adidas.com/images/w_600,f_auto,q_auto/f88bdbb8f061489a9e8fadfe011d45a2_9366/Zapatillas_Forum_Low_Blanco_GV7613_01_standard.jpg",1000 , 10, carlos, null,deportes));
-                    Producto jean =  repoProductos.save(new Producto(2, "Jean", "Muy buen pantalon", "http://hgconfecciones.com.ar/wp-content/uploads/Pantalon-Jean-Wonder.jpg?x65218",3000 , 10, carlos, null,indumentarias));
+                    Producto jean =  repoProductos.save(new Producto(2, "Jean", "Muy buen pantalon", "https://equus.vtexassets.com/arquivos/ids/248888-500-auto?v=638048333395430000&width=500&height=auto&aspect=true",3000 , 10, carlos, null,indumentarias));
                     Producto jogging = repoProductos.save(new Producto(3, "Jogging", "Muy buen pantalon", "https://taverniti.vteximg.com.br/arquivos/ids/243487-1000-1000/15450_602X1.jpg?v=637935020994700000",3000 , 10, carlos, null,indumentarias));
                     Producto ojotas = repoProductos.save(new Producto(4, "Ojotas", "Muy buenas ojotas", "http://d3ugyf2ht6aenh.cloudfront.net/stores/001/720/731/products/ojotas-dc-bolsa-5c3f989c0546d6606316231849905526-640-0.jpg",6000 , 10, roberto, null,indumentarias));
                     Producto horno = repoProductos.save(new Producto(5, "Horno", "Muy buen horno", "https://www.rribaceta.com.ar/1177-large_default/horno-electrico-hg9010e-atma.jpg",6000 , 10, roberto, null,electrodomesticos));
